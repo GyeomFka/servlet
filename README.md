@@ -18,3 +18,8 @@
 --- 
 - HttpServletRequest
 - HttpServletResponse
+--
+- MVC로 나뉜 이유
+  - Servlet or JSP 로만 작성을 하려면 ***역할이 너무 많아진다***
+  - 설계에서 나누는 포인트는, 변경 주기(Life Cycle)를 두고 나눠도 설계가 깔끔해진다.
+  - 최적화된 특성을 살리는게 중요하다.

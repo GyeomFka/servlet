@@ -28,9 +28,9 @@ public class RequestParamServlet extends HttpServlet {
 	private void printAllParameters(HttpServletRequest request) {
 		System.out.println(" ::: request param servlet service ::: ");
 
-		request.getParameterNames().asIterator()
+		/*request.getParameterNames().asIterator()
 				.forEachRemaining(parameterNames -> System.out.println(parameterNames
-					+ " : " + request.getParameter(parameterNames)));
+					+ " : " + request.getParameter(parameterNames)));*/
 
 		System.out.println(" ::: request param servlet service ::: ");
 	}
