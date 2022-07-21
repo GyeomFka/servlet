@@ -1,3 +1,4 @@
+<%@ page import="hello.servlet.domain.member.Member" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -7,14 +8,20 @@
 
 
     <ul>
+        <!--
         <li>
             id = <%=((Member)request.getAttribute("member")).getId() %>
         </li>
+        -->
         <li>
-            id =
+            id-property접근 = ${member.id}
+        </li>
+
+        <li>
+            username = <%=((Member)request.getAttribute("member")).getUsername() %>
         </li>
         <li>
-            id =
+            age = <%=((Member)request.getAttribute("member")).getAge() %>
         </li>
     </ul>
 
