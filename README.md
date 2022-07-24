@@ -23,3 +23,19 @@
   - Servlet or JSP 로만 작성을 하려면 ***역할이 너무 많아진다***
   - 설계에서 나누는 포인트는, 변경 주기(Life Cycle)를 두고 나눠도 설계가 깔끔해진다.
   - 최적화된 특성을 살리는게 중요하다.
+
+--
+- MVC 패턴의 한계?
+  - 중복된 코드가 존재한다.
+  - 사용하지 않는 리소스가 존재한다.
+
+- 해결책
+  - Front Controller Pattern
+
+--
+- Servlet, jsp -> mvc pattern
+  - jsp가 필요해진 이유 -> servlet 코드에서 view 영역을 분리시키기 위해(html 코드가 많아 유지보수 어려워진다)
+  - jsp를 통해 java언어로 html출력이 수월해진다.
+
+-- 
+- MVC 프레임워크 만들기
