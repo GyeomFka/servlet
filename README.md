@@ -39,3 +39,7 @@
 
 -- 
 - MVC 프레임워크 만들기
+
+
+--
+Front controller 패턴 복습
