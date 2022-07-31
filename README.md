@@ -43,3 +43,11 @@
 
 --
 Front controller 패턴 복습
+-- 
+V5
+Adapter Pattern
+한 가지 타입의 컨트롤러 Interface만 사용 -> 여러 Controller Interface사용이 가능하도록
+
+프론트 컨트롤러가 다양한 방식의 컨트롤러를 처리ㅎ할 수 있도록 변경
+
+--
